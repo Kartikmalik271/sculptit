@@ -1,0 +1,1 @@
+web:gunicorn sculptit.wsgi --log-file -
