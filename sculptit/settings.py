@@ -26,7 +26,7 @@ SECRET_KEY = '!y2m$+lcm&@2g4chbr5kc^e9s4c#-f3m5t+#q-u&se5adk%qqx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["sculptit.herokuapp.com/"]
 
 
 # Application definition
