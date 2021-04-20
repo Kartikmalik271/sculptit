@@ -6,7 +6,6 @@ urlpatterns = [
    path('api/',include('rest_framework.urls')),
    path('account/',include('api.urls')),
    path('profile/',include('user_profile.urls')),
-
+   re_path('.*', TemplateView.as_view(template_name='index.html'))
 ]
 
-urlpatterns += [re_path(r'^.*', TemplateView.as_view(template_name='index.html'))]
