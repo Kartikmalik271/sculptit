@@ -1,1 +1,1 @@
-web: gunicorn sculptit.wsgi.application --log-file -
+web: gunicorn sculptit.wsgi 
