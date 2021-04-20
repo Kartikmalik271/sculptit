@@ -11,3 +11,4 @@ psycopg2==2.8.6
 pymongo==3.11.3
 pytz==2020.1
 sqlparse==0.2.4
+whitenoise==5.2.0
