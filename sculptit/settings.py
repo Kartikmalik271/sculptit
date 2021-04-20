@@ -14,7 +14,6 @@ from pathlib import Path
 import os
 import django_heroku
 
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -29,7 +28,6 @@ SECRET_KEY = '!y2m$+lcm&@2g4chbr5kc^e9s4c#-f3m5t+#q-u&se5adk%qqx'
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-
 
 # Application definition
 
@@ -46,7 +44,6 @@ INSTALLED_APPS = [
     'user_profile'
     
 ]
-
 
 
 MIDDLEWARE = [
@@ -154,6 +151,5 @@ REST_FRAMEWORK = {
 CORS_ORIGIN_ALLOW_ALL = True
 
 django_heroku.settings(locals())
-
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
