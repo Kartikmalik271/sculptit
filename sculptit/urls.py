@@ -8,6 +8,7 @@ urlpatterns = [
    path('profile/',include('user_profile.urls')),
    re_path(r'^.*', TemplateView.as_view(template_name='index.html')),
 
+
 ]
 
 
